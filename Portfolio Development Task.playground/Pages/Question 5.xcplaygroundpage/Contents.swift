@@ -10,13 +10,17 @@
  Write an `if` statement that prints "Must be Lakefield!" when the values of the constants would seem to suggest the school is Lakefield, or otherwise prints "Hmm, need more data to be sure."
  
  */
-let hasWaterfrontOnLake = true
-let hasBoysAndGirlsAttending = false
-let hasGreenAndWhiteBuildings = true
 
 // Answer question 5 below
 
-
+let hasWaterfrontOnLake = true
+let hasBoysAndGirlsAttending = false
+let hasGreenAndWhiteBuildings = true
+if hasWaterfrontOnLake == true && hasBoysAndGirlsAttending == true && hasGreenAndWhiteBuildings == true {
+    print("Must be Lakefield")
+} else {
+    print("Hmm, need more data to be sure")
+}
 /*:
  ## Now share your understanding
  
