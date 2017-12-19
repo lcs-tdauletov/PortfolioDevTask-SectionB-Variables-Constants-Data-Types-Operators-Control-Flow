@@ -20,7 +20,7 @@ var oc = 79.99
 var percentagediscountoffered = 0.40
 let trate = 0.13
 let fcat = oc * (1 - percentagediscountoffered) * (1 + trate)
-
+ 
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
  
