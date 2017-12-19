@@ -16,10 +16,14 @@
  
  */
 // Answer question 1 below
-var oc = 79.99
-var percentagediscountoffered = 0.40
-let trate = 0.13
-let fcat = oc * (1 - percentagediscountoffered) * (1 + trate)
+//This is the original cost of an item
+var originalCost = 79.99
+//The following line gives a discount as a fraction of the initial sum.
+var percentageOfDiscountOffered = 0.40
+//This is a tax rate in a decimal notation.
+let taxRate = 0.13
+//This is what you should pay after all the procedures.
+let finalCostAfterTax = originalCost * (1 - percentageOfDiscountOffered) * (1 + taxRate)
  
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
