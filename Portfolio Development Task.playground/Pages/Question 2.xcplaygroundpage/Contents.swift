@@ -21,6 +21,16 @@
  
  */
 // Answer question 2 below
+let dateOfThisMeasurement = "December, 19, 2017."
+print("This measurement stays concrete and is only applicable for this very date. Therefore, it should be a constant")
+let timeOfThisMeasurement = "1:30 p.m."
+print("This measurement, too, was only done once and will never repeat itself in history. Therefore, it should be a constant.")
+let currentHeightOfSnowOutsideInCentimeters = 20
+print("Under the given circumstances, at this date and this time, there is only going to be one height of snow. Therefore, it should be a constant")
+var totalSnowfallOverTheEntireYearSoFar = 21
+print("Depending on the time period when it is measured, the total amount of snow will vary throughout the year. Therefore, it should be a variable.")
+
+
 
 /*:
  ## Now share your understanding
